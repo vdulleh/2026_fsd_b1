@@ -4,17 +4,21 @@
 
 -VSCode
  - Live Server 
- -Chrome
- _GitHub Desktop
+ - Chrome
+ _ GitHub Desktop
 
  ## Technologies
- -HTML
- -CSS
- -Javasript
- -Tailwind CSS
- -React
- -Nodejs
- -Nextjs
- -AWS
- -Postgres
- -GitHub Actions 
+ - HTML
+ - CSS
+ - Javasript
+ - Tailwind CSS
+ - React
+ - Nodejs
+ - Nextjs
+ - AWS
+ - Postgres
+ - GitHub Actions
+
+
+### Week 1
+HTML fundamentals

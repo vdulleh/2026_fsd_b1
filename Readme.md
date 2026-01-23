@@ -1,4 +1,4 @@
-# 2026 Full Stack Development Bootcamp
+# 2026 Full Stack Development Bootcamp B1
 
 ## Tools
 

@@ -7,7 +7,7 @@
  -Chrome
  _GitHub Desktop
 
- ##Technologies
+ ## Technologies
  -HTML
  -CSS
  -Javasript

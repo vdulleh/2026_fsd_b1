@@ -1,0 +1,127 @@
+* {
+    box-sizing: border-box;
+}
+body
+{
+    background-color: rgb(234, 231, 231);
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    height: 100vh;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 14px;
+}
+
+main {
+    border: 2px solid #000;
+    max-width: 800px;
+    width: 100%;
+    padding: 50px;
+border-radius: 30px;
+background-color: white;
+display: flex;
+gap: 50px;
+}
+main > section {
+    flex: 1;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    
+}
+.form-row  {
+    display:flex;
+    flex-direction: column;
+    gap: 8px;
+}
+label {
+    font-size: 16px;
+}
+input[type="text"],
+input[type="email"],
+input[type="password"] 
+ {
+    border: 2px solid #000;
+    padding: 10px;
+    border-radius: 8px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+}
+
+.error span,
+.error input::placeholder {
+    color: red;
+}
+.error input[type="email"] {
+    border-color: red;
+}
+
+summit {
+    background-color: #000;
+    color: white;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+    border: 2px solid #000 ;
+
+}
+
+summit:hover {
+    background-color: white;
+    cursor: pointer;
+    color: #000;
+}
+
+.progress {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: conic-gradient(#000000 0% 65%, #777474 65% 100%);
+  position: relative;
+}
+
+.progress::before {
+  content: '';
+  position: absolute;
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  background: white;
+}
+
+.progress span {
+  position: relative;
+  z-index: 1;
+}
+
+.profile-section {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.roadmap {
+    background-color: #e5e5e5;
+    border-radius: 15px;
+    width: 100%;
+    padding: 20px;
+}
+
+.roadmap li {
+    line-height: 1.6;
+    font-size: 16px;
+    list-style: none;
+}   
+
+.roadmap li.completed {
+   text-decoration: line-through;
+   color: #7b7878;
+}

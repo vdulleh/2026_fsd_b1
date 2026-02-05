@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accessible Form UI</title>
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./favicon-16x16.png"
+    />
+    <link rel="manifest" href="./site.webmanifest" />
+    <meta name="description" content="Project 2 - Accessible Form UI Practice for Week 3 of the Frontend Development Course" />
+    <meta
+      name="keywords"
+      content="UI, form, frontend,Development"
+    />
+    <meta name="author" content="varmah Dulleh" />
+
+    <meta property="og:title" content="Project 2 - Accessible Form UI" />
+
+    <meta
+      property="og:description"
+      content="Project 2 - Accessible Form UI Practice for Week 3 of the Frontend Development Course"
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="/" />
+    <meta property="og:image" content="./images/form-components.png" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Project 2 - Accessible Form UI" />
+    <meta
+      name="twitter:description"
+      content="Project 2 - Accessible Form UI Practice for Week 3 of the Frontend Development Course">
+    <meta name="twitter:image" content="./images/form-components.png" />
+    <meta name="twitter:creator" content="Varmah Dulleh">
+    <link rel="stylesheet" href="./css/styles.css"/>
+</head>
+<body>
+    <main>
+      <section>
+        <form>
+          <div class="form-row">
+            <label for="fullName">Full Name:</label>
+            <input type="text" id="fullName" name="fullName" placeholder="what should we call you?" />
+            </div>
+        
+          
+          <div class="form-row error">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="what is your email address?" />
+            <span>Email is already taken</span> 
+            </div>
+
+            <div class="form-row">
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="xxxxxxxxxxxx" />
+            </div>
+
+
+            <div class="form-row">
+            <label for="con">Confirm Password:</label>
+            <input type="password" id="ConfirmPassword" name="con" placeholder="xxxxxxxxxxxx" />
+            </div>
+
+            <summit>Update Profile</summit>
+
+        </form>
+        </section>
+
+      <section class="profile-section">
+     <div class="progress">
+  <span>65%</span>
+</div>
+
+      <h2>Profile Completeness </h2>
+      <div class="roadmap">
+      <ul>
+        <li class="completed">Create Account</li>
+        <li class="completed">Update Roadmap</li>
+        <li class="completed">Setup Public Profile</li>
+        <li class="complete-your-project">Complete Your Project</li>
+        <li class="invite-your-friends">Invite Your Friends</li>
+      </ul>
+      </section>
+    </main>
+</body>
+</html>

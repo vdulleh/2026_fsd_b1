@@ -1,0 +1,87 @@
+body{
+    font-family: Arial, sans-serif;
+}
+p {
+    font-size: 16px;
+}
+h2{
+    font-size: 20px;
+   
+}
+.baloon-box {
+    background-color: black;
+    border-radius: 16px;
+    padding: 20px;
+}
+.baloon-box{
+    color:white;
+}
+
+h1{
+    font-size: 50px;
+    color: red;
+}
+section{
+    border: 1px solid blue;
+    padding: 20px;
+}
+.sub-section{
+    background-color:lightskyblue;
+}
+#heading{
+    text-decoration: underline;
+}
+
+ul + li.third {
+    color: green;
+}
+
+ul ~ p {
+    border: 1px solid salmon;
+    padding: 15px;
+    margin: 1px;
+}
+p,
+ h1{
+    text-align: center;
+}
+button:hover{
+    color:brown;
+
+}
+
+input:focus {
+    background-color: lightgrey;
+}
+ul:first-child {
+    color: red;
+}
+ul li:last-child {
+    color: green;
+}
+
+ul li:nth-child(3){
+    color: blue;
+}
+
+p::first-letter {
+    font-size: 50px;
+}
+p::first-line {
+    font-weight: bold;
+}
+
+li::marker {
+    color: red;
+    font-size: 100px;
+}
+p::before{
+    content: icon;
+    font-size: 20px;
+}
+p::selection {
+    background-color: yellow;
+}
+input[type="password"] {
+    background-color: lightskyblue;
+}

@@ -1,0 +1,200 @@
+@import url(' ./reset.css');
+
+@font-face {
+    font-family: 'Netflix Sans';
+    src: url('../fonts/NetflixSans_W_Rg.woff2') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Netflix Sans';
+    src: url('../fonts/NetflixSans_W_Md.woff2') format('truetype');
+    font-weight: medium;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Netflix Sans';
+    src: url('../fonts/NetflixSans_W_Bd.woff2') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Netflix Sans', sans-serif;
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 16px;
+}
+
+.hero-banner {
+    height: 100vh;
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.8) 0%,
+            rgba(0, 0, 0, 0.79) 8.333%,
+            rgba(0, 0, 0, 0.757) 16.67%,
+            rgba(0, 0, 0, 0.7) 25%,
+            rgba(0, 0, 0, 0.624) 33.33%,
+            rgba(0, 0, 0, 0.52) 41.67%,
+            rgba(0, 0, 0, 0.4) 50%,
+            rgba(0, 0, 0, 0.28) 58.33%,
+            rgba(0, 0, 0, 0.176) 66.67%,
+            rgba(0, 0, 0, 0.1) 75%,
+            rgba(0, 0, 0, 0.043) 83.33%,
+            rgba(0, 0, 0, 0.01) 91.67%,
+            rgba(0, 0, 0, 0.8) 100%),
+        url('../images/AU-en-20260223-TRIFECTA-perspective_d5d2997e-e114-4bbf-8739-df6c1929e2f9_large.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    max-width: 1197px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+   
+}
+.hero-banner header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero-banner header img {
+    max-width: 150px;
+    width: 100%;
+}
+
+.button {
+    text-decoration: none;
+    padding: 4px 16px;
+    line-height: 24px;
+    border-radius: 4px;
+    background-color: #e50814;
+    color: white;
+    font-weight: medium;
+    transition-duration: 200ms;
+    transition-property: background-color;
+}
+
+.hero-banner header .button {
+    margin: 15px;
+}
+.button:hover {
+    background-color: #c11119;
+}
+
+.hero-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-content h1 {
+    font-size: 64px;
+    line-height: 80px;
+    font-weight: bold;
+}
+
+.hero-content > div {
+    max-width: 664px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.hero-content h3{
+    font-size: 20px;
+    margin: 10px 0;
+}
+.hero-content p{
+    margin-bottom: 16px;
+    line-height: 1.6;
+}
+
+.hero-content form > div {
+    display: flex;
+    gap: 10px;
+}
+
+.hero-content form input {
+    font-size: 16px;
+    font-family: "Netflix Sans", sans-serif;
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    padding: 13px;
+    flex: 1;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 4px;
+}
+
+.hero-content form button {
+    border: 0;
+    height: auto;
+    font-size: 24px;
+    font-weight: medium;
+    padding: 13px 20px;
+    cursor: pointer;
+}
+
+.before {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  background-color: #000;
+  color: #fff;
+  padding: 20px 20px;
+  box-sizing: border-box;
+  text-decoration-thickness: calc(80px);
+}
+
+.before-content h2 {
+    display: flex;
+    flex-direction: row;
+    font-size: 1.3rem;
+    font-weight: normal;
+    text-align: left;
+    gap: 10px;
+}
+
+.button-paragraph-wrapper {
+    display: flex;
+    flex-direction: row;
+    font-size: x-large;
+    font-weight: bold;
+    align-items: center;
+    gap: 15px;
+    background-color: rgb(235, 148, 148);
+    justify-content: space-between;
+    box-sizing: border-box;
+    color: white;
+    padding: 1rem 2.5rem;
+
+}
+
+.before-image img{
+    border-radius: 15px;
+    background-color: #000000;
+    grid-row: 4;
+    grid-column: auto;
+    
+}
+
+.carousel-btn:hover {
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+.before-image{
+    border: #000000;
+    border-radius: ;
+}
+
+

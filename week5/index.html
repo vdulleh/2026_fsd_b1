@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typography and text styling</title>
+    <style>
+        body {
+            height: 500px;
+        }
+    h1 {
+        font-family: 'Arial', sans-serif;
+        font-size: 2.5em;
+        font-weight: normal;
+        text-align: center;
+        text-decoration: underline;
+        text-transform: lowercase;
+        display: flex;
+
+    
+    }
+
+    p {
+        line-height: 1.6em;
+        font-size: 18px;
+        font-family: "Times New Roman", serif;
+        letter-spacing: 1.5px;
+        word-spacing: 5px;
+    }
+    a {
+        background-color: #92a2b3;
+        padding: 20px;
+        font-size: 16px;
+        height: 50%;
+    }
+
+    .inline-block {
+        display: block;
+    }
+    .box {
+        width: 50px;
+        height: 50px;
+        background-color: black;
+        position: absolute;
+        top: 10px;
+        right: 10px;
+    }
+
+    .container {
+       position: sticky;
+       border: 1px solid red;
+       height: 200px;
+       top: 0px;
+    }
+
+    .fixed-box{
+        width: 100px;
+        height: 100px;
+        background-color: red;
+        border-radius: 50px;
+        position: fixed;
+        bottom: 10px;
+        right: 10px;
+    }
+    </style>
+</head>
+<body>
+   <h1> typography and text styling </h1>
+   <p>
+    In this project, we will explore various typography and text styling techniques using HTML and CSS. We will cover topics such as font selection, text alignment, line height, letter spacing, and more.
+   </p>
+<a href="#" class="inline">Home</a>
+<a href="#" class="inline">About</a>
+
+
+<div class="container"> 
+    <div class="box">
+    </div>
+    
+    <div class="fixed-box"> </div>
+    </div>
+
+</body>
+</html>
